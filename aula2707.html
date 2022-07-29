@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  /*
+        Função - é um bloco de código executável através de sua chamada 
+        el realiza um conjunto de ações estabelecidas em seu bloco
+  
+    sem retorno e sem parametro
+        function chamarAlerta(){
+            alert("Olha estou sendo invocado");
+        }
+
+    chamar a função, basta chamar pelo seu nome()
+    chamarAlerta();
+    chamarAlerta();
+    */
+
+    /*função com parametro e sem retorno
+    os parâmetros da função existem apenas na função
+    
+    txt só pode se acessado dentro da função
+
+    function chamarAlertaTexto(txt){
+        alert(txt);
+    }
+
+    
+    chamarAlertaTexto('Olá!');
+    chamarAlertaTexto('Bom dia!');
+    chamarAlertaTexto('Tudo bem?');
+
+   
+
+    função com dois parâmetros
+    function meuNomeCompleto(nome, sobrenome){
+        //nome e sobrenome aqui dentro são locais
+        alert(`Nome Completo: ${nome} ${sobrenome}`);
+    }    
+    //tradicional
+    meuNomeCompleto('Débora', 'Sol');
+    meuNomeCompleto('Filipe', 'Smith');
+
+    //variáveis globais
+    nome = prompt('Digite um nome';)
+    sobrenome = prompt('Digite um sobrenome');
+
+    meuNomeCompleto(nome,sobrenome);
+    //forma direta de entrada na função
+    meuNomeCompleto(prompt('Digite o nome'), prompt('Digite o sobrenome'));  */
+
+    /*
+            crie uma função que receba 2 parametros de passagem
+
+            via console log mostrar as operações de soma e subtração desses valores recebidos
+            
+            CHAME A função 3x com valores nos parametros diferentes.
+       
+        function calculadora(a,b){
+            //o valor para a função será convertido 
+            a = parseInt(a);
+            b = parseInt(b);
+            console.log(a + b);
+            console.log(a - b);
+        }
+        calculadora(10,5);
+        calculadora(4,2);
+        calculadora(12,7);
+         */
+
+            /*com retorno*/
+        function nomeCompleto(nome, sobrenome){
+                return (nome + ' ' + sobrenome);
+        }
+
+        //imprimindo diretamente o retorno
+        console.log(nomeCompleto('A', 'B'));
+
+        //
+        retorno = nomeCompleto('Débora', 'Sol');
+        console.log(retorno);
+    </script>  
+</body>
+</html>
